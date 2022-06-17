@@ -25,9 +25,9 @@ const loop = setInterval(()=>{
 
         mario.src = '../images/game-over.png'
         gameOverPx();
+
+        clearInterval(loop);
     }
 }, 10)
 
 document.addEventListener('keydown',jump)
-
-module.exports =  script.js;
